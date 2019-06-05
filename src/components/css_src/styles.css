@@ -1,0 +1,417 @@
+.focus-in-expand-fwd {
+  -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+  animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+  text-align: center;
+  font-size: 3.0em;
+  font-family: 'Lato';
+  font-weight: 200;
+}
+
+.navbar-expand-md {
+  background-color: #1f1f1f;
+}
+
+@keyframes focus-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-800px);
+    transform: translateZ(-800px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+/* Footer CSS Methods */
+
+#footer-component {
+  background-color: #ffffff;
+  height: auto;
+}
+
+@media (max-width: 375px) {
+  #footer-component {
+    background-color: #ffffff;
+    height: auto;
+  }
+}
+
+#footer-description {
+  padding: 100px 0vh 50px;
+}
+
+@media (max-width: 376px) {
+  #footer-description {
+    padding: 100px 3vh 50px;
+  }
+}
+
+#footer-detailed {
+  padding: 50px 3vh;
+}
+
+@media (max-width: 376px) {
+  #footer-detailed {
+    padding: 50px 3vh;
+  }
+}
+
+#footer-description-heading {
+  font-family: Domine, serif;
+  padding: 25px 0px;
+  width: 40%;
+  font-weight: 300;
+  font-size: 3.0em;
+}
+
+@media (max-width: 769px) {
+  #footer-description-heading {
+    font-family: Domine, serif;
+    padding: 25px 0px;
+    font-weight: 300;
+    width: 100%;
+  }
+}
+
+@media (max-width: 376px) {
+  #footer-description-heading {
+    font-family: Domine, serif;
+    padding: 25px 0px;
+    font-weight: 300;
+    width: 100%;
+  }
+}
+
+#footer-description-paragraph {
+  font-family: Rubik, sans-serif;
+  color: #8e9396;
+  width: 50%;
+}
+
+@media (max-width: 769px) {
+  #footer-description-paragraph {
+    font-family: Rubik, sans-serif;
+    color: #8e9396;
+    width: 100%;
+  }
+}
+
+@media (max-width: 376px) {
+  #footer-description-paragraph {
+    font-family: Rubik, sans-serif;
+    color: #8e9396;
+    width: 100%;
+  }
+}
+
+#footer-detailed-map {
+  /*padding: 0px 0vh;*/
+  filter: grayscale(100%) hue-rotate(0deg) invert(0%) sepia(0%);
+  width: 100%;
+  height: 275px;
+  -webkit-box-shadow: -8px 10px 57px -7px rgba(0,0,0,0.28);
+  -moz-box-shadow: -8px 10px 57px -7px rgba(0,0,0,0.28);
+  box-shadow: -8px 10px 57px -7px rgba(0,0,0,0.28);
+}
+
+@media (max-width: 376px) {
+  #footer-detailed-map {
+    padding: 50px 1vh;
+    filter: grayscale(100%) hue-rotate(0deg) invert(0%) sepia(0%);
+    width: 100%;
+    /*height: 400px;*/
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+#footer-detailed-location {
+  width: 100%;
+}
+
+@media (max-width: 376px) {
+  #footer-detailed-location {
+    width: 100%;
+  }
+}
+
+#footer-detailed-hours {
+  width: 100%;
+}
+
+@media (max-width: 376px) {
+  #footer-detailed-hours {
+    width: 100%;
+  }
+}
+
+#footer-detailed-hours-header {
+  font-family: Domine, serif;
+  color: #1f1f1f;
+}
+
+@media (max-width: 376px) {
+  #footer-detailed-hours-header {
+    font-family: Domine, serif;
+    color: #1f1f1f;
+  }
+}
+
+#footer-detailed-hours-paragraph {
+  font-family: Karla, sans-serif;
+  color: #8e9396;
+}
+
+@media (max-width: 376px) {
+  #footer-detailed-hours-paragraph {
+    font-family: Karla, sans-serif;
+    color: #8e9396;
+  }
+}
+
+#footer-detailed-location-header {
+  font-family: Domine, serif;
+  color: #1f1f1f;
+}
+
+@media (max-width: 376px) {
+  #footer-detailed-location-header {
+    font-family: Domine, serif;
+    color: #1f1f1f;
+  }
+}
+
+#footer-detailed-location-paragraph {
+  font-family: Karla, sans-serif;
+  color: #8e9396;
+}
+
+@media (max-width: 375px) {
+  #footer-detailed-location-paragraph {
+    font-family: Karla, sans-serif;
+    color: #8e9396;
+  }
+}
+
+#footer-detailed-location-link {
+  color: #e67761;
+  text-decoration: none;
+}
+
+@media (max-width: 376px) {
+  #footer-detailed-location-link {
+    color: #e67761;
+    text-decoration: none;
+  }
+}
+
+#contact-us-header {
+  margin-top: 100px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("//images.unsplash.com/photo-1503453776591-b4548af666a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1834&q=80");
+  filter: grayscale(100%) hue-rotate(0deg) invert(0%) sepia(0%);
+  width: 100%;
+  -webkit-box-shadow: -8px 10px 57px -7px rgba(0,0,0,0.28);
+  -moz-box-shadow: -8px 10px 57px -7px rgba(0,0,0,0.28);
+  box-shadow: -8px 10px 57px -7px rgba(0,0,0,0.28);
+  margin-bottom: 100px;
+}
+
+@media (max-width: 376px) {
+  #contact-us-header {
+    margin-top: 100px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("//images.unsplash.com/photo-1503453776591-b4548af666a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1834&q=80");
+    filter: grayscale(100%) hue-rotate(0deg) invert(0%) sepia(0%);
+    width: 100%;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+.tracking-out-contract-bck {
+  -webkit-animation: tracking-out-contract-bck 1.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: tracking-out-contract-bck 1.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes tracking-out-contract-bck {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-500px);
+    transform: translateZ(-500px);
+    opacity: 0;
+  }
+}
+
+.circle-ripple {
+  background-color: #0525c5;
+  position: absolute;
+  width: 50vw;
+  overflow: hidden;
+  height: 50vw;
+  z-index: 2;
+  border-radius: 50%;
+  animation: ripple 2.7s linear infinite;
+}
+
+#navcol-1 {
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width: 376px) {
+  #menu_header_component {
+    margin-bottom: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 135px;
+    max-width: 1430px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+#menu_header_component {
+  margin-bottom: 10vw;
+  margin-top: 10vw;
+  max-width: 1430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) {
+  #menu_header_component {
+    margin-bottom: 10vw;
+    margin-top: 10vw;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    max-width: 1430px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+#wines_season_p {
+  font-weight: 100;
+  letter-spacing: -.035em;
+  line-height: 1.11538;
+  color: #9ea0a6;
+  margin-bottom: 1.25em;
+  font-size: 1.7em;
+  font-family: Merriweather, serif;
+  width: 55%;
+}
+
+@media (max-width: 769px) {
+  #wines_season_p {
+    font-weight: 100;
+    letter-spacing: -.035em;
+    line-height: 1.11538;
+    color: #9ea0a6;
+    margin-bottom: 1.25em;
+    width: 100%;
+    font-size: 1.7em;
+    font-family: Merriweather, serif;
+  }
+}
+
+@media (max-width: 767px) {
+  #index_images_pos1 {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #index_images_pos1 {
+    display: block;
+  }
+}
+
+#header_video_button_component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+}
+
+#header_componenent_container {
+  height: 100vh;
+  z-index: 1;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 766px) {
+  #header_componenent_container {
+    height: auto;
+    padding: 200px 0px;
+    z-index: 1;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: #FFFFFF;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto;
+  }
+}
+
