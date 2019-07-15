@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Kinda okay coffee with a conscience
+title: Terrible coffee with a conscience
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
@@ -69,3 +69,4 @@ main:
     image: /img/products-grid1.jpg
 menu: /img/example.pdf
 ---
+
