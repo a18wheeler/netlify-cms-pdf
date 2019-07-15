@@ -30,6 +30,8 @@ collections:
       - file: "src/pages/index.md"
         label: "Landing Page"
         name: "index"
+        editor:
+          preview: false
         fields:
           - {
               label: "Template Key",
